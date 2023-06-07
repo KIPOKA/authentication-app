@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text } from 'react-native';
+import SignScreen from './src/screens/SignScreen';
 
 export default function App() {
   return (
     <SafeAreaView style={styles.root}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+     <SignScreen/>
     </SafeAreaView>
   );
 }
@@ -13,5 +13,6 @@ export default function App() {
 const styles = StyleSheet.create({
   root: {
     flex:1,
+    backgroundColor: '#F9FBFC',
   },
 });
